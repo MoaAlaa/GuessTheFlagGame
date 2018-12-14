@@ -20,6 +20,9 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BEM-hM-JJI">
                                 <rect key="frame" x="87.5" y="100" width="200" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="BEM-hM-JJI" secondAttribute="height" multiplier="2:1" id="ItY-Xd-9e0"/>
+                                </constraints>
                                 <state key="normal" image="us"/>
                                 <connections>
                                     <action selector="postAnswer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="axG-Fa-LTV"/>
@@ -27,6 +30,9 @@
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fxz-kl-ZIg">
                                 <rect key="frame" x="87.5" y="230" width="200" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="fxz-kl-ZIg" secondAttribute="height" multiplier="2:1" id="vsb-Mz-ote"/>
+                                </constraints>
                                 <state key="normal" image="uk"/>
                                 <connections>
                                     <action selector="postAnswer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qDG-eg-YUo"/>
@@ -34,6 +40,9 @@
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ud-v9-kPv">
                                 <rect key="frame" x="87.5" y="360" width="200" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="1ud-v9-kPv" secondAttribute="height" multiplier="2:1" id="aqN-uo-dNc"/>
+                                </constraints>
                                 <state key="normal" image="italy"/>
                                 <connections>
                                     <action selector="postAnswer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bCM-s1-MGW"/>
@@ -45,10 +54,13 @@
                             <constraint firstItem="1ud-v9-kPv" firstAttribute="top" secondItem="fxz-kl-ZIg" secondAttribute="bottom" constant="30" id="1bb-fZ-6A0"/>
                             <constraint firstItem="fxz-kl-ZIg" firstAttribute="top" secondItem="BEM-hM-JJI" secondAttribute="bottom" constant="30" id="2MP-Hf-33y"/>
                             <constraint firstItem="1ud-v9-kPv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="296" id="7pU-ew-xrm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="1ud-v9-kPv" secondAttribute="bottom" constant="20" id="Duj-IK-d06"/>
                             <constraint firstItem="fxz-kl-ZIg" firstAttribute="centerX" secondItem="BEM-hM-JJI" secondAttribute="centerX" id="SXf-g3-oif"/>
+                            <constraint firstItem="fxz-kl-ZIg" firstAttribute="height" secondItem="BEM-hM-JJI" secondAttribute="height" id="VmN-EB-VE9"/>
                             <constraint firstItem="BEM-hM-JJI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="36" id="cqr-33-8Vo"/>
                             <constraint firstItem="fxz-kl-ZIg" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="iNQ-lX-8YH"/>
                             <constraint firstItem="1ud-v9-kPv" firstAttribute="centerX" secondItem="fxz-kl-ZIg" secondAttribute="centerX" id="keV-GR-1Dp"/>
+                            <constraint firstItem="1ud-v9-kPv" firstAttribute="height" secondItem="fxz-kl-ZIg" secondAttribute="height" id="mWu-DZ-bK3"/>
                             <constraint firstItem="BEM-hM-JJI" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="nL8-Zu-phi"/>
                             <constraint firstItem="fxz-kl-ZIg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="166" id="uDN-yo-AkK"/>
                             <constraint firstItem="1ud-v9-kPv" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="uDw-z6-MXn"/>
